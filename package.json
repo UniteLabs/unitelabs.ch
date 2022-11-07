@@ -1,0 +1,29 @@
+{
+  "name": "unitelabs.ch",
+  "version": "0.0.1",
+  "description": "UniteLabs landing page",
+  "homepage": "https://unitelabs.ch",
+  "bugs": "https://github.com/UniteLabs-ch/unitelabs.ch/issues",
+  "license": "UNLICENSED",
+  "author": "Julian Willand <julian.willand@unitelabs.ch>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UniteLabs-ch/unitelabs.ch.git"
+  },
+  "private": true,
+  "scripts": {
+    "postinstall": "nuxi prepare",
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview"
+  },
+  "devDependencies": {
+    "@fontsource/montserrat": "4.5.13",
+    "@nuxt/content": "2.2.1",
+    "@nuxtjs/tailwindcss": "6.1.3",
+    "@tailwindcss/typography": "0.5.7",
+    "nuxt": "3.0.0-rc.12",
+    "vite-svg-loader": "3.6.0"
+  }
+}
