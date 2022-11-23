@@ -4,6 +4,33 @@
 
 @layer base {
   @import '@fontsource/montserrat';
+
+  html, body {
+    @apply text-[16px] leading-[1.75] text-gray-900;
+
+    @media screen(lg) {
+      @apply text-[20px];
+    }
+  }
+
+  h1 {
+    @apply text-5xl leading-[1.75];
+  }
+  h2 {
+    @apply text-4xl leading-[1.75];
+  }
+  h3 {
+    @apply text-3xl leading-[1.75];
+  }
+  h4 {
+    @apply text-2xl leading-[1.75];
+  }
+  h5 {
+    @apply text-xl leading-[1.75];
+  }
+  h6 {
+    @apply text-lg leading-[1.75];
+  }
 }
 
 @layer utilities {

@@ -14,7 +14,7 @@
 
         <!-- main -->
         <main id="main" class="flex-1">
-          <NuxtPage />
+          <slot />
         </main>
 
         <!-- footer -->
@@ -29,9 +29,10 @@
                 Switzerland
               </address>
             </div>
-            <div class="w-1/2">
-              <NuxtLink to="/legal/disclosure" class="underline">Legal Disclosure</NuxtLink>
-            </div>
+            <ul class="w-1/2">
+              <li><NuxtLink to="/legal/disclosure" class="underline">Legal Disclosure</NuxtLink></li>
+              <li><NuxtLink to="/legal/cookie-policy" class="underline">Cookie Policy</NuxtLink></li>
+            </ul>
             <div class="w-full text-sm">
               Copyright &copy; 2022 UniteLabs. All Rights Reserved.
             </div>
@@ -43,5 +44,5 @@
 </template>
 
 <script setup>
-import Logo from "@/assets/images/logo-invert.svg?component";
+import Logo from "@/assets/img/logo-invert.svg?component";
 </script>
