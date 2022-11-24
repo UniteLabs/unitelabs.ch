@@ -25,18 +25,9 @@ export default defineNuxtModule<ModuleOptions>({
       return;
     }
 
-    // nuxt.options.app.head.style ??= [];
-    // nuxt.options.app.head.style.push({
-    //   children: "#hs-eu-cookie-confirmation { display: none; }",
-    // });
-
-    nuxt.options.app.head.script ??= [];
-    nuxt.options.app.head.script.push({
-      id: "hs-script-loader",
-      type: "text/javascript",
-      async: true,
-      defer: true,
-      src: `//js-eu1.hs-scripts.com/${options.id}.js`,
+    nuxt.options.app.head.style ??= [];
+    nuxt.options.app.head.style.push({
+      children: "#hs-eu-cookie-confirmation { display: none; }",
     });
 
     const { resolve } = createResolver(import.meta.url);

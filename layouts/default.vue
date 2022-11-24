@@ -1,6 +1,8 @@
 <template>
   <div class="app">
-    <div class="flex min-w-[320px]">
+    <LazyCookieConsentBanner v-if="showConsentBanner"></LazyCookieConsentBanner>
+
+    <div class="flex min-w-app">
       <div class="flex-auto flex flex-col min-h-screen max-w-full relative">
         <!-- header -->
         <header class="bg-teal-900">
@@ -14,7 +16,7 @@
 
         <!-- main -->
         <main id="main" class="flex-1">
-          <slot />
+          <slot></slot>
         </main>
 
         <!-- footer -->
@@ -45,4 +47,9 @@
 
 <script setup>
 import Logo from "@/assets/img/logo-invert.svg?component";
+
+const route = useRoute();
+const { consent } = useConsent();
+
+const showConsentBanner = computed(() => !consent.value && !route.path.startsWith('/legal/'));
 </script>

@@ -64,7 +64,7 @@ table th:nth-of-type(2) {
 |    Purpose | Prevents the cookie banner from always displaying when visitors are browsing in strict mode. |
 |    Service | [Hubspot](https://legal.hubspot.com/cookie-policy)                                           |
 |       Type | html_cookie                                                                                  |
-| Expires in | 7 days                                                                                       |
+| Expires in | 6 months                                                                                       |
 
 ## Functionality cookies:
 

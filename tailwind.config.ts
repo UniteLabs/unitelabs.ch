@@ -1,12 +1,14 @@
 import type { Config } from "tailwindcss";
 import defaultTheme from "tailwindcss/defaultTheme";
+import typographyPlugin from "@tailwindcss/typography";
+import headlessuiPlugin from "@headlessui/tailwindcss";
 
 export default <Partial<Config>>{
   theme: {
     container: {
       center: true,
       padding: {
-        DEFAULT: "1rem",
+        DEFAULT: "2rem",
         sm: "2rem",
         lg: "4rem",
         xl: "5rem",
@@ -73,7 +75,10 @@ export default <Partial<Config>>{
           900: "#831843",
         },
       },
+      minWidth: {
+        'app': '320px',
+      },
     },
   },
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [typographyPlugin(), headlessuiPlugin({})],
 };
