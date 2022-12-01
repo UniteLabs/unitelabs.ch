@@ -3,26 +3,24 @@
 UniteLabs AG  
 c/o knefi gmbh  
 Dornacherstrasse 288  
-4053 Basel / Switzerland  
+4053 Basel  
+Switzerland  
 info+website@unitelabs.ch  
-https://unitelabs.ch
+https://unitelabs.ch  
++41 78 210 70 33
 
 **Commercial Registry:**  
 Handelsregisteramt des Kantons Basel-Stadt  
 **Company number:**  
 CH-270.3.015.590-3  
-**VAT ID. (§ 27a UStG):**  
+**VAT ID.:**  
 CHE-487.867.279 MWST
 
-**Liable for the content (§ 55 (2) RStV):**  
-Clara Caminada  
-caminada@unitelabs.ch  
-c/o knefi gmbh  
-Dornacherstrasse 288  
-4053 Basel / Switzerland
+**Board of Directors:**  
+Lukas Bromig, Clara Caminada, Robert Zechlin
 
-**Managing director:**  
-Clara Caminada
+**Liable for the content:**  
+Robert Zechlin  
 
 **This disclosure applies also to:**  
 LinkedIn ([https://linkedin.com/<wbr>company/unitelabs](https://linkedin.com/company/unitelabs))

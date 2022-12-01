@@ -78,6 +78,21 @@ export default <Partial<Config>>{
       minWidth: {
         'app': '320px',
       },
+      typography: (theme: any) => ({
+        DEFAULT: {
+          css: {
+            maxWidth: '50ch',
+            color: theme('colors.gray.900'),
+            a: {
+              color: theme('colors.teal.600'),
+              fontWeight: 'unset',
+              '&:hover': {
+                color: theme('colors.teal.900'),
+              },
+            },
+          },
+        },
+      }),
     },
   },
   plugins: [typographyPlugin(), headlessuiPlugin({})],
