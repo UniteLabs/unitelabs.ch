@@ -5,14 +5,7 @@
     <div class="flex min-w-app">
       <div class="flex-auto flex flex-col min-h-screen max-w-full relative">
         <!-- header -->
-        <header class="bg-teal-900">
-          <a href="#main" class="sr-only">Skip to content</a>
-          <div class="container h-16 flex items-center">
-            <NuxtLink to="/"><Logo class="h-12" /></NuxtLink>
-            <div class="flex-1"></div>
-            <a class="inline-flex items-center py-2 px-4 rounded no-underline bg-orange-600 text-white" href="mailto:info+website@unitelabs.ch">Get in Touch</a>
-          </div>
-        </header>
+        <Header></Header>
 
         <!-- main -->
         <main id="main" class="flex-1">
@@ -46,8 +39,6 @@
 </template>
 
 <script setup>
-import Logo from "@/assets/img/logo-invert.svg?component";
-
 const route = useRoute();
 const { consent } = useConsent();
 
