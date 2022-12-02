@@ -1,7 +1,7 @@
 <template>
-  <header class="">
+  <header>
     <a href="#main" class="sr-only">Skip to content</a>
-    <div class="container px-4 h-16 flex items-center">
+    <div class="container h-16 flex items-center">
       <!-- logo -->
       <NuxtLink to="/" class="h-full flex items-center px-4">
         <Logo class="h-11" />
