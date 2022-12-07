@@ -52,6 +52,7 @@ jobs:
         run: npm run generate
         env:
           NUXT_PUBLIC_HUBSPOT_ID: ${{ secrets.HUBSPOT_ID }}
+          NUXT_PUBLIC_GTM_ID: ${{ secrets.GTM_ID }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1

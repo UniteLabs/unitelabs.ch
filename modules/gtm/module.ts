@@ -11,33 +11,27 @@ interface ModuleOptions {
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: "@nuxtjs/hubspot",
-    configKey: "hubspot",
+    name: "@nuxtjs/gtm",
+    configKey: "gtm",
     compatibility: {
       nuxt: "^3.0.0",
     },
   },
   defaults: {
-    id: process.env.NUXT_PUBLIC_HUBSPOT_ID,
+    id: process.env.NUXT_PUBLIC_GTM_ID,
   },
   async setup(options, nuxt) {
     if (!options.id) {
       return;
     }
 
-    nuxt.options.app.head.style ??= [];
-    nuxt.options.app.head.style.push({
-      children: "#hs-eu-cookie-confirmation { display: none; }",
-    });
-
     const { resolve } = createResolver(import.meta.url);
     nuxt.options.build.transpile.push(resolve("./runtime"));
 
-    nuxt.options.runtimeConfig.public.hubspot = {
+    nuxt.options.runtimeConfig.public.gtm = {
       id: options.id,
     };
-  
-    addPlugin({ src: resolve("./runtime/plugins/tracking.client"), mode: 'client' });
-    addImportsDir(resolve("./runtime/composables"));
+
+    addPlugin({ src: resolve("./runtime/plugins/gtm.client"), mode: "client" });
   },
 });

@@ -14,7 +14,12 @@ export default defineNuxtConfig({
     },
   },
   css: ["@fontsource/montserrat/latin.css"],
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/content", "./modules/hubspot/module"],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxt/content",
+    "./modules/hubspot/module",
+    "./modules/gtm/module",
+  ],
   content: {
     documentDriven: true,
     markdown: {
