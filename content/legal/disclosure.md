@@ -1,3 +1,7 @@
+---
+layout: article
+---
+
 ## Legal Disclosure
 
 UniteLabs AG  

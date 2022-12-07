@@ -1,3 +1,7 @@
+---
+layout: article
+---
+
 This Cookie Policy explains how UniteLabs AG ("**company**", "**we**", "**us**", and "**our**") uses cookies and similar
 technologies to recognize you when you visit our website at https://unitelabs.ch ("**Site**"). It
 explains what these technologies are and why we use them, as well as your rights to control our use of them.

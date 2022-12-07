@@ -16,7 +16,7 @@
           <li class="h-full">
             <NuxtLink
               class="inline-flex items-center h-full px-8 text-white border-t-4 border-t-transparent"
-              :to="{ name: 'index' }"
+              to="/"
               active-class="border-t-white"
             >
               Home
@@ -54,7 +54,7 @@
             <nav>
               <ul class="flex flex-wrap justify-center items-center h-full text-center">
                 <li class="w-full">
-                  <NuxtLink class="flex justify-center w-full px-8 py-4" :to="{ name: 'index' }">
+                  <NuxtLink class="flex justify-center w-full px-8 py-4" to="/">
                     Home
                   </NuxtLink>
                 </li>

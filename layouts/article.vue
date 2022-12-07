@@ -1,15 +1,17 @@
 <template>
   <div class="app">
-    <LazyCookieConsentBanner v-if="showConsentBanner"></LazyCookieConsentBanner>
-
     <div class="flex min-w-app">
       <div class="flex-auto flex flex-col min-h-screen max-w-full relative">
         <!-- header -->
-        <Header></Header>
+        <Header class="bg-teal-900"></Header>
 
         <!-- main -->
         <main id="main" class="flex-1">
-          <slot></slot>
+          <div class="container py-16">
+            <div class="mx-auto prose text-center">
+              <slot></slot>
+            </div>
+          </div>
         </main>
 
         <!-- footer -->
@@ -18,9 +20,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-const { consent } = useConsent();
-
-const showConsentBanner = computed(() => !consent.value);
-</script>

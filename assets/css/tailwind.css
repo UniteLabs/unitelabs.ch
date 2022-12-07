@@ -13,6 +13,10 @@
     }
   }
 
+  html {
+    @apply scroll-smooth;
+  }
+
   h1 {
     @apply text-5xl leading-[1.75];
   }

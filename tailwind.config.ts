@@ -1,9 +1,10 @@
+import headlessuiPlugin from "@headlessui/tailwindcss";
+import typographyPlugin from "@tailwindcss/typography";
 import type { Config } from "tailwindcss";
 import defaultTheme from "tailwindcss/defaultTheme";
-import typographyPlugin from "@tailwindcss/typography";
-import headlessuiPlugin from "@headlessui/tailwindcss";
 
-export default <Partial<Config>>{
+export default <Config>{
+  content: ["content/**/*.md"],
   theme: {
     container: {
       center: true,
@@ -75,19 +76,36 @@ export default <Partial<Config>>{
           900: "#831843",
         },
       },
+      spacing: {
+        screen: "100vh",
+      },
       minWidth: {
-        'app': '320px',
+        app: "320px",
+      },
+      gridTemplateRows: {
+        "8": "repeat(8, minmax(0, 1fr))",
+        "9": "repeat(9, minmax(0, 1fr))",
+        "10": "repeat(10, minmax(0, 1fr))",
+      },
+      strokeWidth: {
+        "3": "3px",
+        "4": "4px",
+        "5": "5px",
+        "6": "6px",
+        "7": "7px",
+        "8": "8px",
+        "9": "9px",
       },
       typography: (theme: any) => ({
         DEFAULT: {
           css: {
-            maxWidth: '50ch',
-            color: theme('colors.gray.900'),
+            maxWidth: "50ch",
+            color: theme("colors.gray.900"),
             a: {
-              color: theme('colors.teal.600'),
-              fontWeight: 'unset',
-              '&:hover': {
-                color: theme('colors.teal.900'),
+              color: theme("colors.teal.600"),
+              fontWeight: "unset",
+              "&:hover": {
+                color: theme("colors.teal.900"),
               },
             },
           },
