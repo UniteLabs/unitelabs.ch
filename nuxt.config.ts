@@ -14,6 +14,10 @@ export default defineNuxtConfig({
     },
   },
   css: ["@fontsource/montserrat/latin.css"],
+  components: {
+    global: true,
+    dirs: ['~/components'],
+  },
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxt/content",

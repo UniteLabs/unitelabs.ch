@@ -10,6 +10,6 @@
   </Switch>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { Switch } from "@headlessui/vue";
 </script>

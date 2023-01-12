@@ -14,12 +14,13 @@
       <nav class="h-full">
         <ul class="hidden lg:flex items-center h-full">
           <li class="h-full">
-            <NuxtLink
-              class="inline-flex items-center h-full px-8 text-white border-t-4 border-t-transparent"
-              to="/"
-              active-class="border-t-white"
-            >
+            <NuxtLink class="inline-flex items-center h-full px-8 text-white border-t-4 border-t-transparent" to="/" active-class="border-t-white">
               Home
+            </NuxtLink>
+          </li>
+          <li class="h-full">
+            <NuxtLink class="inline-flex items-center h-full px-8 text-white border-t-4 border-t-transparent" to="/company/team" active-class="border-t-white">
+              Team
             </NuxtLink>
           </li>
           <li>
@@ -58,6 +59,11 @@
                     Home
                   </NuxtLink>
                 </li>
+                <li class="w-full">
+                  <NuxtLink class="flex justify-center w-full px-8 py-4" to="/company/team">
+                    Team
+                  </NuxtLink>
+                </li>
                 <li class="border-b border-gray-300 w-[80%]"></li>
                 <li class="w-full">
                   <a
@@ -79,6 +85,4 @@
 <script setup lang="ts">
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue';
 import Logo from "@/assets/img/logo-invert.svg?component";
-
-const active = ref(false);
 </script>

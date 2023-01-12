@@ -1,6 +1,5 @@
 <template>
   <section class="relative flex flex-col lg:flex-row justify-center bg-gray-50">
-
     <div ref="slider" class="-mb-[305px] md:-mb-[414px] lg:-mb-0" :style="`opacity: ${Math.abs(ratio % 60 - 30) / 30};`">
       <slot></slot>
     </div>
