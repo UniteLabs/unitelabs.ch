@@ -13,7 +13,7 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.svg" }],
     },
   },
-  css: ["@fontsource/montserrat/latin.css"],
+  css: ["@fontsource/assistant/latin.css"],
   components: {
     global: true,
     dirs: ['~/components'],

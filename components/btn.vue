@@ -6,12 +6,13 @@
         'bg-teal-600 text-white': !props.outline,
     }"
   >
-    <slot></slot>
+    <slot>{{ label }}</slot>
   </button>
 </template>
 
 <script setup lang="ts">
 const props = defineProps<{
+  label?: string;
   outline?: boolean;
 }>();
 </script>

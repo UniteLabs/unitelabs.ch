@@ -22,16 +22,16 @@
           </p>
         </div>
         <div class="w-full space-y-4">
-          <Button class="w-full" @click="acceptAll">I accept all cookies</Button>
-          <Button
+          <btn class="w-full" @click="acceptAll">I accept all cookies</btn>
+          <btn
             v-show="!showPreference"
             class="w-full"
             outline
             @click="showPreference = true"
-            >Manage preferences</Button
+            >Manage preferences</btn
           >
-          <Button v-show="showPreference" class="w-full" outline @click="acceptSelection"
-            >Save preferences</Button
+          <btn v-show="showPreference" class="w-full" outline @click="acceptSelection"
+            >Save preferences</btn
           >
         </div>
       </div>

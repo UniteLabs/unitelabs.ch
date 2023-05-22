@@ -18,7 +18,7 @@ export default <Config>{
     },
     extend: {
       fontFamily: {
-        sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
+        sans: ["Assistant", ...defaultTheme.fontFamily.sans],
       },
       colors: {
         gray: {
