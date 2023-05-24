@@ -5,7 +5,7 @@ layout: standalone
 ::div{.container.py-8}
 ::div{.mx-auto.prose}
 
-# The SiLA Experience
+# The <img src="/images/future-labs-live/sila-logo.svg" class="p-4 h-16 inline-block"/> Experience
 
 The SiLA Consortium is a non-profit organisation that gathers life science and software experts from industry and academia to standardise laboratory hard- and software interfaces. SiLA and its members provide a framework for the exchange, integration, sharing, and retrieval of electronic laboratory information. The standard defines how information is transported from one system to another. SiLA has a growing global user base and is recognised as the most commonly used laboratory interface standard in the world.
 
@@ -125,6 +125,9 @@ Absorbance 96 Automate is the only truly on-deck plate reader in the world. With
 ::::::div{.rounded-lg.bg-white.drop-shadow}
 ::div
 [](#){id="splashlake"}
+::
+::div{.px-4.pt-4}
+![Splashlake Logo](/images/future-labs-live/splashlake-logo.svg){class="h-[50px]"}
 ::
 ::div{.prose.p-4}
 
