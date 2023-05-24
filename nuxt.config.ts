@@ -1,3 +1,4 @@
+import { resolve } from "path";
 import svgLoader from "vite-svg-loader";
 
 export default defineNuxtConfig({
@@ -16,7 +17,7 @@ export default defineNuxtConfig({
   css: ["@fontsource/assistant/latin.css"],
   components: {
     global: true,
-    dirs: ['~/components'],
+    dirs: ["~/components"],
   },
   modules: [
     "@nuxtjs/tailwindcss",
@@ -33,6 +34,9 @@ export default defineNuxtConfig({
   typescript: {
     shim: false,
     strict: true,
+  },
+  generate: {
+    routes: ['/', '/future-labs-live']
   },
   vite: {
     plugins: [svgLoader()],
