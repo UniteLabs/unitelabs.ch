@@ -51,7 +51,7 @@ UniteLabs is an integration platform for biotech companies. The UniteLabs platfo
 [](#){id="abb"}
 ::
 ::div{.px-4.pt-4}
-![ABB Logo](/images/future-labs-live/abb-logo.png){class="h-[50px]"}
+![ABB Logo](/images/future-labs-live/abb-logo.svg){class="h-[50px]"}
 ::
 ::div{.prose.p-4}
 
@@ -77,7 +77,7 @@ Go faster. Go further than ever. GoFa’s class-leading speed, safety, and ease 
 [](#){id="opentrons"}
 ::
 ::div{.px-4.pt-4}
-![Opentrons Logo](/images/future-labs-live/opentrons-logo.png){class="h-[50px]"}
+![Opentrons Logo](/images/future-labs-live/opentrons-logo.svg){class="h-[50px]"}
 ::
 ::div{.prose.p-4}
 
@@ -131,7 +131,7 @@ Incubators provide protected heated environments where your cell samples can gro
 [](#){id="byonoy"}
 ::
 ::div{.px-4.pt-4}
-![Byonoy Logo](/images/future-labs-live/byonoy-logo.png){class="h-[50px]"}
+![Byonoy Logo](/images/future-labs-live/byonoy-logo.svg){class="h-[50px]"}
 ::
 ::div{.prose.p-4}
 
@@ -165,7 +165,7 @@ Absorbance 96 Automate is the only truly on-deck plate reader in the world. With
 
 ::
 ::div{.aspect-square.lg:aspect-video.overflow-hidden}
-<img src="/images/future-labs-live/splashlake-product.jpg" alt="Splashlake Product Image" class="object-cover w-full h-full">
+<img src="/images/future-labs-live/splashlake-product.jpg" alt="Splashlake Product Image" class="object-contain w-full h-full">
 ::
 ::div{.prose.p-4}
 Splashlake collects data from all instruments involved in the HT process and makes all data generated including process and result data accessible to end users and data scientists for further processing and visualization according to FAIR principles. Our solutions are empowered by SiLA and AnIML.
