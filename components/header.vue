@@ -19,6 +19,11 @@
             </NuxtLink>
           </li>
           <li class="h-full">
+            <NuxtLink class="inline-flex items-center h-full px-8 text-white border-t-4 border-t-transparent" to="/product" active-class="border-t-white">
+              Product
+            </NuxtLink>
+          </li>
+          <li class="h-full">
             <NuxtLink class="inline-flex items-center h-full px-8 text-white border-t-4 border-t-transparent" to="/company/team" active-class="border-t-white">
               Team
             </NuxtLink>
@@ -57,6 +62,11 @@
                 <li class="w-full">
                   <NuxtLink class="flex justify-center w-full px-8 py-4" to="/">
                     Home
+                  </NuxtLink>
+                </li>
+                <li class="w-full">
+                  <NuxtLink class="flex justify-center w-full px-8 py-4" to="/product">
+                    Product
                   </NuxtLink>
                 </li>
                 <li class="w-full">
