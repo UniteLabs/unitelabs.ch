@@ -17,10 +17,10 @@
     </picture>
     <div class="container h-[600px] flex justify-start items-center text-left">
       <div>
-        <h1 class="text-6xl leading-relaxed text-white p-4">
+        <h1 class="text-6xl leading-relaxed text-white">
           <ContentSlot :use="$slots.default" unwrap="p" />
         </h1>
-        <p class="text-lg leading-relaxed text-white p-4">
+        <p class="text-lg leading-relaxed text-white">
           <ContentSlot :use="$slots.description" unwrap="p" />
         </p>
       </div>
