@@ -28,6 +28,11 @@
               Team
             </NuxtLink>
           </li>
+          <li class="h-full">
+            <NuxtLink class="inline-flex items-center h-full px-8 text-white border-t-4 border-t-transparent" to="https://unitelabs.notion.site/Job-Board-7dea26e994ae4666ba134f1025c5874c" active-class="border-t-white">
+              Jobs
+            </NuxtLink>
+          </li>
           <li>
             <a
               class="inline-flex items-center mx-4 py-1 px-6 rounded-full no-underline bg-orange-600 text-white"
