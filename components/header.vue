@@ -28,13 +28,18 @@
               Team
             </NuxtLink>
           </li>
+          <li class="h-full">
+            <NuxtLink class="inline-flex items-center h-full px-8 text-white border-t-4 border-t-transparent" to="https://hub.unitelabs.ch" target="_blank" active-class="border-t-white">
+              UniteHub
+            </NuxtLink>
+          </li>
           <li>
-            <a
+            <NuxtLink
+              to="/contact"
               class="inline-flex items-center mx-4 py-1 px-6 rounded-full no-underline bg-orange-600 text-white"
-              href="mailto:info+website@unitelabs.ch"
             >
               Get in Touch
-            </a>
+            </NuxtLink>
           </li>
         </ul>
       </nav>
@@ -74,14 +79,19 @@
                     Team
                   </NuxtLink>
                 </li>
+                <li class="w-full">
+                  <NuxtLink class="flex justify-center w-full px-8 py-4" to="https://hub.unitelabs.ch" target="_blank">
+                    UniteHub
+                  </NuxtLink>
+                </li>
                 <li class="border-b border-gray-300 w-[80%]"></li>
                 <li class="w-full">
-                  <a
+                  <NuxtLink
+                    to="/contact"
                     class="inline-flex items-center mx-4 my-3 py-1 px-6 rounded-full no-underline bg-orange-600 text-white"
-                    href="mailto:info+website@unitelabs.ch"
                   >
                     Get in Touch
-                  </a>
+                  </NuxtLink>
                 </li>
               </ul>
             </nav>

@@ -11,9 +11,16 @@ export default defineNuxtConfig({
         },
       ],
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.svg" }],
+      script: [
+        {
+          src: "https://js-eu1.hsforms.net/forms/embed/v2.js",
+          id: "hubspot-script",
+          async: true,
+        },
+      ],
     },
   },
-  css: ["@fontsource/assistant/latin.css"],
+  css: ["assets/fonts/inter/inter.css"],
   components: {
     global: true,
     dirs: ["~/components"],
@@ -35,9 +42,13 @@ export default defineNuxtConfig({
     strict: true,
   },
   generate: {
-    routes: ['/', '/future-labs-live']
+    routes: ["/", "/future-labs-live"],
   },
   vite: {
     plugins: [svgLoader()],
   },
+  routeRules: {
+    '/jobs': {ssr: false},
+    '/roll-up': {ssr: false},
+  }
 });
