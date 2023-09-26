@@ -42,7 +42,7 @@ export default defineNuxtConfig({
     strict: true,
   },
   generate: {
-    routes: ["/", "/future-labs-live"],
+    routes: ["/", "/future-labs-live", "/roll-up"],
   },
   vite: {
     plugins: [svgLoader()],
