@@ -51,7 +51,7 @@
                 <span class="sr-only">Address</span>
                 <BuildingOffice2Icon class="text-gray-400 w-6 h-7" />
               </dt>
-              <dd>Dornacherstrasse 288<br />4053 Basel &centerdot; CH</dd>
+              <dd>Solothurnerstrasse 94<br />4053 Basel &centerdot; CH</dd>
             </div>
             <div class="flex gap-4">
               <dt class="flex-none">
